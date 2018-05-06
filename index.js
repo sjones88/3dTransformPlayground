@@ -4,4 +4,5 @@ $(function () {
 	let backFace = $('div').addClass('card__face--back');
 	card.append(frontFace);
 	card.append(backFace);
+	$('flex-container').append(card);
 });
